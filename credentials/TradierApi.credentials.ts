@@ -38,6 +38,13 @@ export class TradierApi implements ICredentialType {
 			description: 'Whether to use the production or sandbox environment',
 		},
 		{
+			displayName: 'Base URL',
+			name: 'baseUrl',
+			type: 'string',
+			default: 'https://api.tradier.com/v1',
+			description: 'The base URL for the Tradier API. For sandbox use: https://sandbox.tradier.com/v1',
+		},
+		{
 			displayName: 'Default Account ID',
 			name: 'accountId',
 			type: 'string',
