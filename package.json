@@ -2,7 +2,7 @@
   "name": "@velocity-bpa/n8n-nodes-tradier",
   "version": "1.0.0",
   "description": "n8n community node for Tradier trading platform integration",
-  "license": "bsl-catalog",
+  "license": "SEE LICENSE IN LICENSE.md",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.11.0",
-    "n8n-workflow": "*",
+    "n8n-workflow": "1.57.0",
     "prettier": "^3.1.0",
     "typescript": "~5.3.0"
   },
